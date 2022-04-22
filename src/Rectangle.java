@@ -1,10 +1,16 @@
-import java.util.*;
-public class student {
+public class Rectangle {
+    //צור משתנים צבע אורך ורוחב
     private int color;
     private int length;
     private int width;
-    public Rectangle
-
+    //פעולה שיוצרת מלבן חדש
+    public Rectangle (int color, int length, int width)
+    {
+        this.color = color;
+        this.length = length;
+        this.width = width;
+    }
+    //getters and setters
     public int getColor() {
         return color;
     }
@@ -24,18 +30,11 @@ public class student {
     public void setWidth(int width) {
         this.width = width;
     }
+    //פעולה שמחזירה את השטח של המלבן (אורך כפול רוחב)
+    public int area()
+    {
+        return this.length*this.width;
+    }
 
-    //צור משתנים צבע אורך ורוחב
-
-
-    //פעולה שיוצרת מלבן חדש
-    //getters and setters
-    //פעולה שמקבלת את שלושת המלבנים ומחזירה את השטח של כל המלבנים
-    //יצירת משתנה סכום שטח
-    //אורך כפול הרוחב של כל המלבנים והכנסת המספר למשתנה של סכום השטח
-    //החזרת משתנה סכום השטח
-    //פעולה שמקבלת את שלושת המלבנים ומחזירה את צבע המלבן עם השטח הכי גדול
-    //החזרת הצבע של המלבן עם השטח הכי גדול
-    //פעולה שמבקשת צבע ומשנה את הפרמטר של הצבע של כל המלבנים לצבע זה
 
 }
